@@ -16,8 +16,8 @@ npm test
 ## Project Structure
 src/ <br>
  ├─ test/<br>
- │   ├─ steps/        # Cucumber step definitions
- │   ├─ features/     # Feature files
+ │   ├─ steps/        # Cucumber step definitions <br>
+ │   ├─ features/     # Feature files <br>
 
 cucumber.json file links the Feature file with the Step Definition  
 
