@@ -13,6 +13,14 @@ It has the below 2 scenarios <br>
 ### Run the below command in the commandline
 npm test
 
+## Project Structure
+src/
+ ├─ test/
+ │   ├─ steps/        # Cucumber step definitions
+ │   ├─ features/     # Feature files
+
+cucumber.json file links the Feature file with the Step Definition  
+
 ## Notes
 
 Increase step timeout for API calls if network is slow
