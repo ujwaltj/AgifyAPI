@@ -57,6 +57,6 @@ Then('I should get an age prediction for name', async function () {
     expect(body).toHaveProperty("name");
     expect(body).toHaveProperty("age");
     expect(body).toHaveProperty("count");
-    //console.log(`The name ${body.name} has the age ${body.age}`);
+    
 });
 
