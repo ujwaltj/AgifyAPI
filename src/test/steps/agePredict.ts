@@ -6,7 +6,6 @@ let apiResponse: APIResponse;
 let nameParam: string | undefined;
 let response: any
 Given('I have a name {string}', async function (name: string) {
-    // Write code here that turns the phrase above into concrete actions
     
     nameParam = name;
     if(nameParam.length>0){
