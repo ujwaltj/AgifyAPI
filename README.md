@@ -10,6 +10,7 @@ It has the below 2 scenarios <br>
 - Agify API - Predict ages for names
 
 ## Run
+# Run the below command in the commandline
 npm test
 
 ## Notes
