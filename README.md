@@ -3,6 +3,10 @@
 ## Project Overview
 This project contains automated tests for the [Agify.io](https://agify.io) API using Playwright, TypeScript, and Cucumber (BDD).
 
+##Installation 
+- Node Version: v22.16.0
+- NPM Version: 10.9.2
+
 ## Features
 - Feature name: identifyAge.feature <br>
 It has the below 2 scenarios <br>
