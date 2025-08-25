@@ -24,3 +24,9 @@ cucumber.json file links the Feature file with the Step Definition
 ## Notes
 
 Increase step timeout for API calls if network is slow
+
+## Test Screenshot
+
+Here’s a screenshot of the test run:
+
+![Agify API Test Screenshot](screenshots/Agify-Test.png)
