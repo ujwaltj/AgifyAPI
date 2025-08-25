@@ -14,7 +14,7 @@ It has the below 2 scenarios <br>
 npm test
 
 ## Project Structure
-src/
+src/ <br>
  ├─ test/
  │   ├─ steps/        # Cucumber step definitions
  │   ├─ features/     # Feature files
