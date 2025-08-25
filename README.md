@@ -15,7 +15,7 @@ npm test
 
 ## Project Structure
 src/ <br>
- ├─ test/
+ ├─ test/<br>
  │   ├─ steps/        # Cucumber step definitions
  │   ├─ features/     # Feature files
 
