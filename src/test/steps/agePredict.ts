@@ -7,8 +7,13 @@ let nameParam: string | undefined;
 let response: any
 Given('I have a name {string}', async function (name: string) {
     // Write code here that turns the phrase above into concrete actions
-    console.log("Scenario 1");
+    
     nameParam = name;
+    if(nameParam.length>0){
+        console.log("Scenario 1");    
+    } else {
+        console.log("Scenario 2");
+    }
 });
 
 When('I request the age prediction from the API', async function () {
@@ -21,7 +26,12 @@ When('I request the age prediction from the API', async function () {
 
 Then('the response status should be {int}', async function (statusCode: number) {
     console.log("The status code is", statusCode);
-    expect(apiResponse.status()).toBe(statusCode);
+    if(statusCode === 200) {
+        expect(apiResponse.status()).toBe(statusCode);
+    } else {
+        expect(apiResponse.status()).toBe(statusCode);
+    }
+    
 });
 
 Then("the response should contain an {string}", async function (field: string) {
@@ -32,7 +42,7 @@ Then("the response should contain an {string}", async function (field: string) {
 });
 
 Given('I have names {string}', async function (inputName: string) {
-    console.log("Scenario 2");
+    console.log("Scenario 3");
     nameParam = inputName;
 });
 

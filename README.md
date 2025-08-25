@@ -9,8 +9,10 @@ This project contains automated tests for the [Agify.io](https://agify.io) API u
 
 ## Features
 - Feature name: identifyAge.feature <br>
-It has the below 2 scenarios <br>
+It has the below 3 scenarios <br>
 - To predict age by entering name of a person
+- To verify client side error status code is displayed
+  if empty string is passed for the name parameter
 - Agify API - Predict ages for names
 
 ## Run
