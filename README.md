@@ -3,7 +3,7 @@
 ## Project Overview
 This project contains automated tests for the [Agify.io](https://agify.io) API using Playwright, TypeScript, and Cucumber (BDD).
 
-##Installation 
+## Installation 
 - Node Version: v22.16.0
 - NPM Version: 10.9.2
 
